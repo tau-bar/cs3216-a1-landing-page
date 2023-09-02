@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        'special': ['0px 14px 28px rgba(0, 0, 0, 0.25)', '0px 10px 10px rgba(0, 0, 0, 0.22)']
+      },
       colors: {
         gray: {
           100: '#FBFBFB',

@@ -8,12 +8,12 @@ export default function Hero() {
     <section className="relative">
 
       {/* Illustration behind hero content */}
-      <div className="absolute right-0 transform top-72 pointer-events-none -z-1" aria-hidden="true">
-        <Image className="w-72" src={Pasta}/>
+      <div data-aos="fade-left" data-aos-delay="300" className="absolute right-0 transform top-72 pointer-events-none -z-1" aria-hidden="true">
+        <Image className="animate-float invisible md:visible xl:w-[600px] lg:w-84 w-72" src={Pasta}/>
       </div>
 
-      <div className="absolute left-0 transform bottom-0 pointer-events-none -z-1 rotate-12" aria-hidden="true">
-        <Image className="w-72" src={Dish}/>
+      <div data-aos="fade-right" data-aos-delay="450" className="absolute left-0 xl:left-32 transform bottom-0 pointer-events-none -z-1 rotate-12" aria-hidden="true">
+        <Image className="animate-float invisible md:visible xl:w-[600px] lg:w-84 md:w-72" src={Dish}/>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,7 +28,7 @@ export default function Hero() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Don't know what food is good on campus? (NAME) is here to elevate your dining experience on campus!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-[#CE3760] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#newsletter">Join our Beta test!</a>
+                  <a className="btn text-white bg-[#CE3760] hover:bg-red-800 w-full mb-4 sm:w-auto sm:mb-0" href="#newsletter">Join our Beta test!</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#features">Learn More</a>
@@ -39,8 +39,8 @@ export default function Hero() {
 
           {/* Hero image */}
           <div className='flex justify-center w-full'>
-            <Image className="drop-shadow-special md:w-[250px] sm:w-1/2" src={Screenshot}/>
-            <Image className="drop-shadow-special ml-12 md:w-[250px] sm:w-1/2" src={Screenshot}/>
+            <Image data-aos="fade-up" data-aos-delay="600" className="drop-shadow-special md:w-[250px] max-sm:w-[100px]" src={Screenshot}/>
+            <Image data-aos="fade-up" data-aos-delay="750" className="drop-shadow-special ml-12 md:w-[250px] max-sm:w-[100px]" src={Screenshot}/>
           </div>
 
         </div>

@@ -41,7 +41,7 @@ export default function Hero() {
               data-aos="zoom-y-out"
             >
               The{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#CE3760] to-[#FAC26D]">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#3BA284] to-[#90DFBF]">
                 Ultimate
               </span>{" "}
               Food Companion
@@ -62,7 +62,7 @@ export default function Hero() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-[#CE3760] hover:bg-red-800 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="btn text-white bg-[#3BA284] hover:bg-red-800 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#newsletter"
                   >
                     Join our Beta test!

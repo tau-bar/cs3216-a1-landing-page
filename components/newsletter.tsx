@@ -8,7 +8,7 @@ export default function Newsletter() {
         <div className="pb-12 md:pb-20">
 
           {/* CTA box */}
-          <div className="relative bg-gradient-to-r from-[#CE3760] to-[#FAC26D] rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="flip-up">
+          <div className="relative bg-gradient-to-r from-[#3BA284] to-[#90DFBF] rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="flip-up">
 
             {/* Background illustration */}
             <div className="absolute right-0 bottom-2 translate-y-4 pointer-events-none hidden lg:block" aria-hidden="true">
@@ -20,8 +20,7 @@ export default function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">Join the Beta Tasting Revolution.</h3>
-                <p className="text-gray-100 text-lg mb-6">Get a taste of the future before anyone else – become a beta tester for NUS Eats by sharing your email below!</p>
-
+                <p className="text-gray-100 text-lg mb-6">Get a taste of the future before anyone else – become a beta tester for FoodPrints by sharing your email below!</p>
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">

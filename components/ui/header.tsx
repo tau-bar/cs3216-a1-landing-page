@@ -37,8 +37,8 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="#newsletter" className="btn-sm text-gray-200 bg-[#CE3760] hover:bg-red-800 ml-3">
-                  <span>Join Beta test</span>
+                <Link href="#newsletter" className="btn-sm text-gray-200 bg-[#3BA284] hover:bg-green-700 ml-3">
+                  <span>Join Beta Test</span>
                 </Link>
               </li>
             </ul>

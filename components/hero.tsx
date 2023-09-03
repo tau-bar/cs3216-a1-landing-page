@@ -1,4 +1,5 @@
-import Screenshot from "@/public/images/screenshot.png";
+import HomePageScreenshot from "@/public/images/home-page.png";
+import FoodDetails from "@/public/images/food-details.png";
 import Pasta from "@/public/images/pasta.png";
 import Dish from "@/public/images/dish.png";
 import Image from "next/image";
@@ -52,7 +53,7 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Don't know what food is good on campus? (NAME) is here to
+                Don't know what food is good on campus? FoodPrints is here to
                 elevate your dining experience on campus!
               </p>
               <div
@@ -62,7 +63,7 @@ export default function Hero() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-[#3BA284] hover:bg-red-800 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="btn text-white bg-[#3BA284] hover:bg-green-800 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#newsletter"
                   >
                     Join our Beta test!
@@ -86,13 +87,13 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="600"
               className="drop-shadow-special md:w-[250px] max-sm:w-[100px]"
-              src={Screenshot}
+              src={HomePageScreenshot}
             />
             <Image
               data-aos="fade-up"
               data-aos-delay="750"
               className="drop-shadow-special ml-12 md:w-[250px] max-sm:w-[100px]"
-              src={Screenshot}
+              src={FoodDetails}
             />
           </div>
         </div>
